@@ -1,0 +1,14 @@
+.subcategory-item {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  width: 120px;
+  background-color: #8f9dd5;
+  text-align: center;
+}
+
+.subcategory-item:hover {
+  background-color: #302f4d;
+  cursor: pointer;
+}

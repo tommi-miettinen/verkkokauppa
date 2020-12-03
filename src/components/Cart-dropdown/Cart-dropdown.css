@@ -1,0 +1,32 @@
+.cart {
+  position: absolute;
+  font-size: 16px;
+  top: 50px;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  margin-left: auto;
+  min-height: 100px;
+  max-width: 34%;
+  background-color: #c7d1ea;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.checkout-btn {
+  height: 25px;
+  background-color: #1d1551;
+  color: white;
+  border: none;
+}
+
+.checkout-btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cart {
+    max-width: 100%;
+  }
+}

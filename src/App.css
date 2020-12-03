@@ -1,0 +1,16 @@
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-light {
+  color: #c7ceea;
+  border: none;
+}
+
+.button-light:hover {
+  color: #302f4d;
+}

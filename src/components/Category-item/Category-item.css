@@ -1,0 +1,18 @@
+.category-item {
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  background-color: #8f9dd5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.category-item:hover {
+  background-color: #302f4d;
+  cursor: pointer;
+}

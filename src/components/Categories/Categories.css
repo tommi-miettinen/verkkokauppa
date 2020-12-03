@@ -1,0 +1,14 @@
+.categories {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 1024px) {
+  .categories {
+    width: 60%;
+  }
+}
